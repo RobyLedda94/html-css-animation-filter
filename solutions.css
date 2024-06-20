@@ -80,3 +80,15 @@
 .ex-7-img:hover{
     filter: grayscale(100%);
 }
+
+
+/* ESERCIZIO 8 */
+
+.ex-8-img{
+    transition: 1.5s;
+}
+
+.ex-8-img:hover{
+    filter: brightness(50%) grayscale(100%);
+    border-radius: 20px;
+}
