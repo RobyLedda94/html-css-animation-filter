@@ -102,6 +102,6 @@
 
 .ex-9-img:hover{
     filter: sepia(100%) blur(1px);
-    width: 500px;
+    transform: scale(1.5);
     border-radius: 20px;
 }
