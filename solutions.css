@@ -154,3 +154,29 @@
         transform: rotate(0deg);
     }
 }
+
+
+/* ESERCIZIO 12 */
+
+.ex-12-top-white{
+    animation: top 3s infinite;
+}
+
+@keyframes top{
+    0%{
+        top: -10px;
+        left: 100px;
+    }
+}
+
+
+.ex-12-bottom-white{
+    animation: bottom 3s infinite;
+}
+
+@keyframes bottom{
+    0%{
+        bottom: -10px;
+        right: 100px;
+    }
+}
