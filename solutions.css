@@ -111,7 +111,7 @@
 
 .ex-10-icon{
     animation-name: rotation;
-    animation-duration: 1s;
+    animation: rotation 2s infinite;
 }
 
 @keyframes rotation {
